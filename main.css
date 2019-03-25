@@ -1,0 +1,90 @@
+body {
+   background-color: darkslategray;
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+   background-color: teal;
+   margin: 0px;
+   padding: 0px;
+   color: whitesmoke;
+   font-family: trebuchet ms;
+   text-decoration: none;
+   height: 7rem;
+   width: 100vw;
+   display: grid;
+   grid-template-rows: 7rem;
+   grid-template-columns: 50% 50%; 
+   font-size: 2rem;
+}
+
+.header-img {
+   justify-items: center;
+   align-items: center;
+   padding: 0.3rem;
+}
+
+nav {
+   height: 7rem;
+   justify-self: end;
+}
+
+a:link {
+   color: whitesmoke;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+a:visited {
+   color: whitesmoke;   
+   background-color: transparent;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   color: darkgray;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+ ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+ }
+
+ #name {
+    grid-column: 1;
+ }
+
+ .main-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+   }
+   
+   .main-pic img {
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+ }
+
+ main h1 {
+    color: whitesmoke;
+    font-family: Helvetica;
+    font-size: 7vh;
+    margin: 0;
+ }
+
+ main h2 {
+   color: whitesmoke;
+   font-family: Helvetica;
+   font-size: 4vh;
+   margin: 0;
+   text-align: center;
+ }
